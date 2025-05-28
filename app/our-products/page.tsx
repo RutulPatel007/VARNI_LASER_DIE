@@ -66,7 +66,7 @@ export default function OurProductsPage() {
       <section className="relative h-[500px] bg-gradient-to-r from-teal-500 to-teal-600">
         <div className="absolute inset-0">
           <Image
-            src="/images/products-showcase.png"
+            src="/images/precision-tools.jpg"
             alt="Our Products Showcase"
             fill
             className="object-cover opacity-20"
