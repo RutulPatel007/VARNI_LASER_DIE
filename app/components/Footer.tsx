@@ -109,9 +109,10 @@ export default function Footer() {
               >
                 <MapPin className="w-5 h-5 text-teal-400 mr-2 flex-shrink-0 mt-0.5" />
                 <div className="text-sm text-gray-300">
-                  <p>28, Shiv Estate,  B/h. Hotel Chatako,</p>
-                  <p>Nr.  Baroda Expressway, NH No. - 8,</p>
-                  <p>CTM, Ahmedabad-380026</p>
+                 
+                  <p>86, Vishala Platinum Estate, Opp. The Grand Thakar Hotel,</p>
+                  <p>Near Vishala Gold Estate, Odhav Ring Road Circle, </p>
+                  <p>Odhav, Ahmedabad-382415</p>
                   <p>Gujarat, India</p>
                 </div>
               </button>
