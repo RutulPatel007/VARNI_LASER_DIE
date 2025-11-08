@@ -13,7 +13,7 @@ export default function Footer() {
   }
 
   const handleLocationClick = () => {
-    window.open("https://maps.google.com/?q=Plot+No.+45,+GIDC+Industrial+Estate,+Vatva,+Ahmedabad", "_blank")
+    window.open("https://maps.google.com/?q=23.016151,72.674240", "_blank")
   }
 
   return (
