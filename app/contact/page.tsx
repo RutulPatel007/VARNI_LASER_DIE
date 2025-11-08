@@ -104,10 +104,10 @@ export default function ContactPage() {
     {
       icon: FaMapMarkerAlt,
       title: "Address",
-      details: ["28, Shiv Estate,  B/h. Hotel Chatako, Nr.  Baroda Expressway, NH No. - 8, CTM, Ahmedabad-380026, Gujarat, India"],
+      details: ["86, Vishala Platinum Estate, Opp. The Grand Thakar Hotel, Near Vishala Gold Estate, Odhav Ring Road Circle, Odhav, Ahmedabad-382415, Gujarat, India"],
       color: "bg-gradient-to-br from-teal-500 to-teal-600",
       action: () =>
-        window.open("https://maps.google.com/?q=123+Industrial+Estate,+Ahmedabad,+Gujarat+380001,+India", "_blank"),
+        window.open("https://maps.google.com/?q=23.016151,72.674240", "_blank"),
     },
     {
       icon: FaClock,
@@ -130,7 +130,7 @@ export default function ContactPage() {
   }
 
   const handleGetDirections = () => {
-    window.open("https://maps.app.goo.gl/FhAZrk3hWDbQUdweA?g_st=com.google.maps.preview.copy", "_blank")
+    window.open("https://maps.google.com/?q=23.016151,72.674240", "_blank")
   }
 
   return (
@@ -432,9 +432,8 @@ export default function ContactPage() {
             <div className="relative">
               <div className="h-[500px] w-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.2139920982436!2d72.6773913!3d23.0159138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87bb26f1aacf%3A0x2a0217b9b3d8b8cd!2sTirupati%20Aakruti%20Industrial%20Estate!5e0!3m2!1sen!2sin!4v1748284033169!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3672.207534496768!2d72.67166507531358!3d23.01615097917832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDAwJzU4LjEiTiA3MsKwNDAnMjcuMyJF!5e0!3m2!1sen!2sin!4v1762590779108!5m2!1sen!2sin"
                   width="100%"
-                  
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
@@ -460,7 +459,7 @@ export default function ContactPage() {
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Varni Laser Die Pvt. Ltd.</h3>
-                  <p className="text-gray-600">28, Shiv Estate,  B/h. Hotel Chatako, Nr.  Baroda Expressway, NH No. - 8, CTM, Ahmedabad-380026, Gujarat, India</p>
+                  <p className="text-gray-600">86, Vishala Platinum Estate, Opp. The Grand Thakar Hotel, Near Vishala Gold Estate, Odhav Ring Road Circle, Odhav, Ahmedabad-382415, Gujarat, India</p>
                 </div>
                 <Button
                   onClick={handleGetDirections}
